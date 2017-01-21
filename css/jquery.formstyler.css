@@ -233,8 +233,7 @@
 	cursor: pointer;
 }
 .jq-selectbox__select {
-	height: 30px;	
-	border: 2px solid #b5b5b5;
+	height: 26px;	
 	line-height: 28px;
 	width: 100%;        
 	/*border-bottom-color: #B3B3B3;

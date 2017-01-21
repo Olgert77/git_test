@@ -104,6 +104,7 @@ h1{
 	height: 116px;
 	background: #fff;
 	position: fixed;
+	font-variant: small-caps;
 	top:0;
 	left: 0;
 	right: 0;
@@ -186,13 +187,12 @@ h1{
 	padding: 61px 0 55px 0;
 	text-align: center;
 }
-.about-us, .about-us-top h3{
+.about-us, .about-us-text h3{
 	font-size: 36px;
 }
-.about-us p, .service-page p, .about-us-top p, .about-us-bottom p{
+.about-us p, .service-page p, .about-us-text p{
 	padding: 25px 148px 0 135px;
     font-size: 20px; 
-    font-family: Open-sans; 
 }
 .row{
 	margin: 0 -10px;
@@ -255,7 +255,7 @@ h1{
 }
 .footer ul li{
 	margin-bottom: 5px;
-	color: #aeaeae;
+	color: #fff;
 }
 .footer-social li{
 	margin-top: 30px;
@@ -289,9 +289,6 @@ h1{
 	display: block;
 	margin-bottom: 10px;
 }
-.modal input, .modal textarea, .modal select, .contact-form input, .contact-form textarea{
-	border: 2px solid #b5b5b5;
-} 
 .input-group{
 	padding: 35px 8px;
 }
@@ -309,6 +306,7 @@ h1{
 	height: 30px;
 	font-size: 14px;
 	padding-left: 15px;
+	border: 2px solid #b5b5b5;
 }
 .form-control:focus{
 	border-color: #bc2336;
@@ -360,6 +358,7 @@ h1{
 	border: 3px solid transparent;
 	text-align: center;	
 	margin-bottom: -15px;
+	font-size: 18px;
 }
 .service-desc span{
 	display: block;
@@ -401,8 +400,14 @@ h1{
 .contact-form ul li{
 	margin-bottom: 5px;
 }
+.contact-form .form-control{
+	height: 54px;
+}
+.contact-form .form-control + .form-control{
+	margin-top: 36px;
+}
 .contact-form .w50 textarea{
-	min-height: 150px;
+	min-height: 234px;
 }
 .contact-form .input-group{
 	padding: 0px 12px 0 12px;
@@ -423,10 +428,13 @@ h1{
 .about-us-bg{
 	margin-top: -116px;	
 }
-.about-us-top{
+.about-us-text{
     padding: 45px 0 80px 0;
     text-align: center;
-   }
+}
+.about-us-slick{
+	margin-bottom: 35px;
+}
 .slick-text h2{
 	font-size: 36px;
 	margin-bottom: 56px;
@@ -446,10 +454,6 @@ h1{
 	position: absolute;
 	top: 50px;
 	right: 115px;
-}
-.about-us-bottom{
-	padding: 80px 0 50px 0;
-    text-align: center;
 }
 .slick-arrow{
 	position: absolute;
